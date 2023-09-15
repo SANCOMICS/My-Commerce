@@ -34,9 +34,11 @@ a{
 .header-top-strip{
   border-bottom: 1px solid var(--color-3b4149);
   background-color: var(--color-131921);
+  font-size: 12px;
 }
 .header-upper{
   background-color: var(--color-131921);
+  font-size: 10px;
 }
 .header-bottom{
   background-color: var(--color-232f3e);
@@ -46,8 +48,8 @@ a{
   background-color: var(--color-febd69);
 }
 .header-upper.header-upper-links img{
-  width: 35px;
-  height: 35px;
+  width: 5px;
+  height: 5px;
 }
 .header-bottom .menu-links a{
   color: white;

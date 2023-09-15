@@ -26,21 +26,21 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-2">
-              <h2><Link className='text-white'>Sancomics.</Link></h2>
+              <h3><Link className='text-white'>Sancomics.</Link></h3>
             </div>
-            <div className="col-5">
-            <div className="input-group">
-                <input
-                  type="text"
-                  className="form-control py-2"
-                  placeholder="Search Product Here..."
-                  aria-label="Search Product Here..."
-                  aria-describedby="basic-addon2"
-                />
-                <span className="input-group-text p-3" id="basic-addon2">
-                  <BsSearch className='fs-6'/>
-                </span>
-              </div>
+            <div className="col-4 mx-4">
+              <div className="input-group">
+                  <input
+                    type="text"
+                    className="form-control "
+                    placeholder="Search Product Here..."
+                    aria-label="Search Product Here..."
+                    aria-describedby="basic-addon2"
+                  />
+                  <span className="input-group-text " id="basic-addon2">
+                    <BsSearch className='fs-6'/>
+                  </span>
+                </div>
             </div>
             <div className="col-5">
               <div className='header-upper-links d-flex align-items-center justify-content-between'>
