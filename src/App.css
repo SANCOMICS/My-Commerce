@@ -11,6 +11,7 @@
   --color-bf4800: #bf4800;
   --color-f5f5f7: #f5f5f7;
   --color-ededed: #ededed;
+  --color-777777: #777777;
 }
 .card-wrapper{
   background-color: white;
@@ -291,5 +292,51 @@ footer .input-group-text{
   border-right: 1px solid var(--color-ededed);
 }
 /* Categories ends here */
-
+.marg{
+  padding-right: 22px;
+}
+.section-heading{
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
 /* homePage Part end here */
+
+/* Blog card part */
+.blog-card{
+  background-color: white;
+  border-radius: 10px ;
+}
+.blog-card > div > img{
+  height: 200px;
+  width: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-content{
+  padding: 15px;
+}
+.blog-content .date{
+  font-size: 10px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-777777); 
+  padding: 0;
+}
+.blog-content h5{
+  font-size: 12px;
+  color: var(--color-131921);
+}
+.blog-content p.desc{
+  font-size: 9px;
+  line-height: 16px;
+  color: var(--color-777777);
+}
+.blog-content > .button{
+  font-size: 9px;
+}
+
+/* Blog card part Ends*/
