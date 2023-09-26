@@ -1,6 +1,6 @@
 import React from 'react'
 import{Link} from 'react-router-dom'
-import marquee from 'react-fast-marquee'
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -194,7 +194,59 @@ const Home = () => {
           <div className='row'>
             <div className='col-12'>
               <div className='marquee-inner-wrapper card-wrapper'>
-                <marquee>i am some text</marquee>
+                <marquee> 
+                  <div className='d-flex'>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-01.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-02.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-03.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-04.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-05.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-06.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-07.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-08.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-01.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-02.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-03.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-04.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-05.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-06.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-07.png' alt='brand'></img>
+                    </div>
+                    <div className='mx-4 w-25'>
+                      <img src='images/brand-08.png' alt='brand'></img>
+                    </div>
+                  </div>
+                  
+                </marquee>
               </div>
             </div>
           </div>
