@@ -309,7 +309,7 @@ footer .input-group-text{
   border-radius: 10px ;
 }
 .blog-card > div > img{
-  height: 200px;
+  height: 180px;
   width: 220px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -340,3 +340,22 @@ footer .input-group-text{
 }
 
 /* Blog card part Ends*/
+
+/* Product Card Style */
+
+ .product-card{
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+ }
+
+ .product-card .product-details h6{
+  color: var(--color-bf4800);
+  font-size: 11px;
+ }
+
+ .product-card .product-details h5{
+    font-size: 12 px;
+    color: var(--color-131921);
+ }
+/* Product Card Style Ends*/
