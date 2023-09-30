@@ -397,3 +397,14 @@ footer .input-group-text{
  }
  
 /* Product Card Style Ends*/
+
+.special-product-card{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.pimage > img{
+  height: 170px;
+  width: 150px;
+}
+/* Special Products style Ends */
